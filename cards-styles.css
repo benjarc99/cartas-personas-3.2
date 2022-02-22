@@ -52,8 +52,21 @@ img {
     justify-content: center;
   }
   .card {
+    width: 38%;
     margin-right: 25px;
     margin-left: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-cards {
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  .card {
+    width: 90%;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 

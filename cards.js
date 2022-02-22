@@ -4,7 +4,6 @@ const $template = d.querySelector("template").content,
   $fragment = d.createDocumentFragment(),
   $containerCards = d.querySelector(".container-cards");
 
-console.log($template.querySelector(".img-card"));
 fetch("https://reqres.in/api/users?per_page=12")
   .then((res) => (res.ok ? res.json() : Promise.reject(res)))
   .then((json) => {
