@@ -60,7 +60,7 @@ img {
 
 @media (max-width: 600px) {
   .container-cards {
-    margin-top: 10%;
+    margin-top: 10vh;
     margin-bottom: 0;
   }
   .card {
